@@ -1,3 +1,6 @@
+" Author: Xavier Nayrac
+" Version: 0.1.0
+
 if exists('g:loaded_quickmarkdown') || &cp || v:version < 700
   finish
 endif
