@@ -1,6 +1,6 @@
 function s:build_title(char)
-  execute "normal yyp"
-  execute ":s/./" . a:char . "/g"
+  let s:line_content = substitute(getline("."), '.', a:char, 'g')
+  call append('.', s:line_content)
 endfunction
 
 function! quickmarkdown#title1()
