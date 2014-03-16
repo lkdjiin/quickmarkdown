@@ -12,7 +12,5 @@ function! quickmarkdown#title2()
 endfunction
 
 function! quickmarkdown#title3()
-  let s:line_content = getline(".")
-  let s:line_num = line(".")
-  call setline(s:line_num, '### ' . s:line_content)
+  call setline(line('.'), '### ' . getline('.'))
 endfunction
