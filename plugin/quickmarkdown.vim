@@ -4,3 +4,4 @@ endif
 let g:loaded_quickmarkdown = 1
 
 command! QuickMarkdownTitle1 call quickmarkdown#title1()
+command! QuickMarkdownTitle2 call quickmarkdown#title2()
