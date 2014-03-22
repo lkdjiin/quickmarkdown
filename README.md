@@ -43,52 +43,52 @@ your keyboard layout.
 #### Qwerty layout
 
 ``` vim
-nmap <Leader>m1 :QuickMarkdownTitle1<Enter>
-nmap <Leader>m2 :QuickMarkdownTitle2<Enter>
-nmap <Leader>m3 :QuickMarkdownTitle3<Enter>
-nmap <Leader>m4 :QuickMarkdownTitle4<Enter>
-nmap <Leader>m5 :QuickMarkdownTitle5<Enter>
-nmap <Leader>m6 :QuickMarkdownTitle6<Enter>
-imap <C-m>1 <C-o>:QuickMarkdownTitle1<Enter>
-imap <C-m>2 <C-o>:QuickMarkdownTitle2<Enter>
-imap <C-m>3 <C-o>:QuickMarkdownTitle3<Enter>
-imap <C-m>4 <C-o>:QuickMarkdownTitle4<Enter>
-imap <C-m>5 <C-o>:QuickMarkdownTitle5<Enter>
-imap <C-m>6 <C-o>:QuickMarkdownTitle6<Enter>
+nmap <Leader>q1 :QuickMarkdownTitle1<Enter>
+nmap <Leader>q2 :QuickMarkdownTitle2<Enter>
+nmap <Leader>q3 :QuickMarkdownTitle3<Enter>
+nmap <Leader>q4 :QuickMarkdownTitle4<Enter>
+nmap <Leader>q5 :QuickMarkdownTitle5<Enter>
+nmap <Leader>q6 :QuickMarkdownTitle6<Enter>
+imap <C-q>1 <C-o>:QuickMarkdownTitle1<Enter>
+imap <C-q>2 <C-o>:QuickMarkdownTitle2<Enter>
+imap <C-q>3 <C-o>:QuickMarkdownTitle3<Enter>
+imap <C-q>4 <C-o>:QuickMarkdownTitle4<Enter>
+imap <C-q>5 <C-o>:QuickMarkdownTitle5<Enter>
+imap <C-q>6 <C-o>:QuickMarkdownTitle6<Enter>
 ```
 
 #### Azerty layout
 
 ``` vim
-nmap <Leader>m& :QuickMarkdownTitle1<Enter>
-nmap <Leader>mé :QuickMarkdownTitle2<Enter>
-nmap <Leader>m" :QuickMarkdownTitle3<Enter>
-nmap <Leader>m' :QuickMarkdownTitle4<Enter>
-nmap <Leader>m( :QuickMarkdownTitle5<Enter>
-nmap <Leader>m- :QuickMarkdownTitle6<Enter>
-imap <C-m>& <C-o>:QuickMarkdownTitle1<Enter>
-imap <C-m>é <C-o>:QuickMarkdownTitle2<Enter>
-imap <C-m>" <C-o>:QuickMarkdownTitle3<Enter>
-imap <C-m>' <C-o>:QuickMarkdownTitle4<Enter>
-imap <C-m>( <C-o>:QuickMarkdownTitle5<Enter>
-imap <C-m>- <C-o>:QuickMarkdownTitle6<Enter>
+nmap <Leader>q& :QuickMarkdownTitle1<Enter>
+nmap <Leader>qé :QuickMarkdownTitle2<Enter>
+nmap <Leader>q" :QuickMarkdownTitle3<Enter>
+nmap <Leader>q' :QuickMarkdownTitle4<Enter>
+nmap <Leader>q( :QuickMarkdownTitle5<Enter>
+nmap <Leader>q- :QuickMarkdownTitle6<Enter>
+imap <C-q>& <C-o>:QuickMarkdownTitle1<Enter>
+imap <C-q>é <C-o>:QuickMarkdownTitle2<Enter>
+imap <C-q>" <C-o>:QuickMarkdownTitle3<Enter>
+imap <C-q>' <C-o>:QuickMarkdownTitle4<Enter>
+imap <C-q>( <C-o>:QuickMarkdownTitle5<Enter>
+imap <C-q>- <C-o>:QuickMarkdownTitle6<Enter>
 ```
 
 #### Bépo layout
 
 ``` vim
-nmap <Leader>m" :QuickMarkdownTitle1<Enter>
-nmap <Leader>m« :QuickMarkdownTitle2<Enter>
-nmap <Leader>m» :QuickMarkdownTitle3<Enter>
-nmap <Leader>m( :QuickMarkdownTitle4<Enter>
-nmap <Leader>m) :QuickMarkdownTitle5<Enter>
-nmap <Leader>m@ :QuickMarkdownTitle6<Enter>
-imap <C-m>" <C-o>:QuickMarkdownTitle1<Enter>
-imap <C-m>« <C-o>:QuickMarkdownTitle2<Enter>
-imap <C-m>» <C-o>:QuickMarkdownTitle3<Enter>
-imap <C-m>( <C-o>:QuickMarkdownTitle4<Enter>
-imap <C-m>) <C-o>:QuickMarkdownTitle5<Enter>
-imap <C-m>@ <C-o>:QuickMarkdownTitle6<Enter>
+nmap <Leader>q" :QuickMarkdownTitle1<Enter>
+nmap <Leader>q« :QuickMarkdownTitle2<Enter>
+nmap <Leader>q» :QuickMarkdownTitle3<Enter>
+nmap <Leader>q( :QuickMarkdownTitle4<Enter>
+nmap <Leader>q) :QuickMarkdownTitle5<Enter>
+nmap <Leader>q@ :QuickMarkdownTitle6<Enter>
+imap <C-q>" <C-o>:QuickMarkdownTitle1<Enter>
+imap <C-q>« <C-o>:QuickMarkdownTitle2<Enter>
+imap <C-q>» <C-o>:QuickMarkdownTitle3<Enter>
+imap <C-q>( <C-o>:QuickMarkdownTitle4<Enter>
+imap <C-q>) <C-o>:QuickMarkdownTitle5<Enter>
+imap <C-q>@ <C-o>:QuickMarkdownTitle6<Enter>
 ```
 
 Contributing
