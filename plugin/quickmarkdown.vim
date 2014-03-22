@@ -6,6 +6,9 @@ if exists('g:loaded_quickmarkdown') || &cp || v:version < 700
 endif
 let g:loaded_quickmarkdown = 1
 
-command! QuickMarkdownTitle1 call quickmarkdown#title1()
-command! QuickMarkdownTitle2 call quickmarkdown#title2()
-command! QuickMarkdownTitle3 call quickmarkdown#title3()
+command! QuickMarkdownTitle1 call quickmarkdown#title(1)
+command! QuickMarkdownTitle2 call quickmarkdown#title(2)
+command! QuickMarkdownTitle3 call quickmarkdown#title(3)
+command! QuickMarkdownTitle4 call quickmarkdown#title(4)
+command! QuickMarkdownTitle5 call quickmarkdown#title(5)
+command! QuickMarkdownTitle6 call quickmarkdown#title(6)

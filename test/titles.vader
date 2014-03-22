@@ -23,6 +23,24 @@ Execute (To level 3 title):
 Expect (to be a level 3 title):
   ### Make a title of this
 
+Execute (To level 4 title):
+  QuickMarkdownTitle4
+
+Expect (to be a level 4 title):
+  #### Make a title of this
+
+Execute (To level 5 title):
+  QuickMarkdownTitle5
+
+Expect (to be a level 5 title):
+  ##### Make a title of this
+
+Execute (To level 6 title):
+  QuickMarkdownTitle6
+
+Expect (to be a level 6 title):
+  ###### Make a title of this
+
 # Testing level 1 to 3 with a two lines file.
 
 Given (Some text):
@@ -53,5 +71,29 @@ Do (To title 3):
 
 Expect (to be a level 3 title):
   ### Make a title of this
+  and not of this one
+
+Do (To title 4):
+  gg
+  :QuickMarkdownTitle4\<Enter>
+
+Expect (to be a level 4 title):
+  #### Make a title of this
+  and not of this one
+
+Do (To title 5):
+  gg
+  :QuickMarkdownTitle5\<Enter>
+
+Expect (to be a level 5 title):
+  ##### Make a title of this
+  and not of this one
+
+Do (To title 6):
+  gg
+  :QuickMarkdownTitle6\<Enter>
+
+Expect (to be a level 6 title):
+  ###### Make a title of this
   and not of this one
 

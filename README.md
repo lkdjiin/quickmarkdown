@@ -10,7 +10,7 @@ If you don't have a preferred installation method, I recommend using Vundle.
 Add this line to your vimrc:
 
 ``` vim
-Bundle 'git@github.com:lkdjiin/vim-foldcomments.git'
+Bundle 'git@github.com:lkdjiin/quickmarkdown.git'
 ```
 
 And then install it with:
@@ -26,17 +26,50 @@ Put the cursor on the line you want to transform into a title and then:
 
     :QuickMarkdownTitle1
 
-to build a title of level 1. For level 2 and level 3 you have:
+to build a title of level 1.
+
+There is also functions to build titles from level 2 to 6:
 
     :QuickMarkdownTitle2
-    :QuickMarkdownTitle3
+    ...
+    :QuickMarkdownTitle6
 
-You could map those functions in your vimrc like this:
+### Mapping
+
+You should map all those functions in your vimrc. Just copy/paste the
+following mapping that is right for your keyboard layout.
+
+#### Qwerty layout
 
 ``` vim
-nmap <Leader>= :QuickMarkdownTitle1<Enter>
-nmap <Leader>- :QuickMarkdownTitle2<Enter>
-nmap <Leader># :QuickMarkdownTitle3<Enter>
+nmap <Leader>m1 :QuickMarkdownTitle1<Enter>
+nmap <Leader>m2 :QuickMarkdownTitle2<Enter>
+nmap <Leader>m3 :QuickMarkdownTitle3<Enter>
+nmap <Leader>m4 :QuickMarkdownTitle4<Enter>
+nmap <Leader>m5 :QuickMarkdownTitle5<Enter>
+nmap <Leader>m6 :QuickMarkdownTitle6<Enter>
+```
+
+#### Azerty layout
+
+``` vim
+nmap <Leader>m& :QuickMarkdownTitle1<Enter>
+nmap <Leader>mé :QuickMarkdownTitle2<Enter>
+nmap <Leader>m" :QuickMarkdownTitle3<Enter>
+nmap <Leader>m' :QuickMarkdownTitle4<Enter>
+nmap <Leader>m( :QuickMarkdownTitle5<Enter>
+nmap <Leader>m- :QuickMarkdownTitle6<Enter>
+```
+
+#### Bépo layout
+
+``` vim
+nmap <Leader>m" :QuickMarkdownTitle1<Enter>
+nmap <Leader>m« :QuickMarkdownTitle2<Enter>
+nmap <Leader>m» :QuickMarkdownTitle3<Enter>
+nmap <Leader>m( :QuickMarkdownTitle4<Enter>
+nmap <Leader>m) :QuickMarkdownTitle5<Enter>
+nmap <Leader>m@ :QuickMarkdownTitle6<Enter>
 ```
 
 Contributing
