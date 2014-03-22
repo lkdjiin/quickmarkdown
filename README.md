@@ -36,8 +36,9 @@ There is also functions to build titles from level 2 to 6:
 
 ### Mapping
 
-You should map all those functions in your vimrc. Just copy/paste the
-following mapping that is right for your keyboard layout.
+I recommend you to map all those functions in your vimrc, in normal mode as
+well as in insert mode. Just copy/paste the following mapping that is right for
+your keyboard layout.
 
 #### Qwerty layout
 
@@ -48,6 +49,12 @@ nmap <Leader>m3 :QuickMarkdownTitle3<Enter>
 nmap <Leader>m4 :QuickMarkdownTitle4<Enter>
 nmap <Leader>m5 :QuickMarkdownTitle5<Enter>
 nmap <Leader>m6 :QuickMarkdownTitle6<Enter>
+imap <C-m>1 <C-o>:QuickMarkdownTitle1<Enter>
+imap <C-m>2 <C-o>:QuickMarkdownTitle2<Enter>
+imap <C-m>3 <C-o>:QuickMarkdownTitle3<Enter>
+imap <C-m>4 <C-o>:QuickMarkdownTitle4<Enter>
+imap <C-m>5 <C-o>:QuickMarkdownTitle5<Enter>
+imap <C-m>6 <C-o>:QuickMarkdownTitle6<Enter>
 ```
 
 #### Azerty layout
@@ -59,6 +66,12 @@ nmap <Leader>m" :QuickMarkdownTitle3<Enter>
 nmap <Leader>m' :QuickMarkdownTitle4<Enter>
 nmap <Leader>m( :QuickMarkdownTitle5<Enter>
 nmap <Leader>m- :QuickMarkdownTitle6<Enter>
+imap <C-m>& <C-o>:QuickMarkdownTitle1<Enter>
+imap <C-m>é <C-o>:QuickMarkdownTitle2<Enter>
+imap <C-m>" <C-o>:QuickMarkdownTitle3<Enter>
+imap <C-m>' <C-o>:QuickMarkdownTitle4<Enter>
+imap <C-m>( <C-o>:QuickMarkdownTitle5<Enter>
+imap <C-m>- <C-o>:QuickMarkdownTitle6<Enter>
 ```
 
 #### Bépo layout
@@ -70,6 +83,12 @@ nmap <Leader>m» :QuickMarkdownTitle3<Enter>
 nmap <Leader>m( :QuickMarkdownTitle4<Enter>
 nmap <Leader>m) :QuickMarkdownTitle5<Enter>
 nmap <Leader>m@ :QuickMarkdownTitle6<Enter>
+imap <C-m>" <C-o>:QuickMarkdownTitle1<Enter>
+imap <C-m>« <C-o>:QuickMarkdownTitle2<Enter>
+imap <C-m>» <C-o>:QuickMarkdownTitle3<Enter>
+imap <C-m>( <C-o>:QuickMarkdownTitle4<Enter>
+imap <C-m>) <C-o>:QuickMarkdownTitle5<Enter>
+imap <C-m>@ <C-o>:QuickMarkdownTitle6<Enter>
 ```
 
 Contributing

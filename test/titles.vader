@@ -24,19 +24,23 @@ Expect (to be a level 3 title):
   ### Make a title of this
 
 Execute (To level 4 title):
+  AssertEqual "M", getline(".")[col(".") - 1]
   QuickMarkdownTitle4
+  AssertEqual "M", getline(".")[col(".") - 1]
 
 Expect (to be a level 4 title):
   #### Make a title of this
 
 Execute (To level 5 title):
   QuickMarkdownTitle5
+  AssertEqual "M", getline(".")[col(".") - 1]
 
 Expect (to be a level 5 title):
   ##### Make a title of this
 
 Execute (To level 6 title):
   QuickMarkdownTitle6
+  AssertEqual "M", getline(".")[col(".") - 1]
 
 Expect (to be a level 6 title):
   ###### Make a title of this

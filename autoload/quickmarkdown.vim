@@ -5,6 +5,7 @@ endfunction
 
 function s:build_little_title(str)
   call setline(line('.'), a:str . getline('.'))
+  execute "normal! " . strlen(a:str) . "l"
 endfunction
 
 function! quickmarkdown#title(level)
