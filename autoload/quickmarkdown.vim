@@ -24,3 +24,7 @@ function! quickmarkdown#title(level)
   endif
 endfunction
 
+function! quickmarkdown#link()
+  execute "normal! a[]()"
+  execute "normal! 2h"
+endfunction
