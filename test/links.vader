@@ -1,13 +1,17 @@
 Given (Some text):
   This is a line of text
 
-Do (Add a link):
-  $
-
 Execute ():
+  execute "normal! $"
   QuickMarkdownLink
   AssertEqual "]", getline(".")[col(".") - 1]
 
 Expect (A appended link):
   This is a line of text[]()
+
+Do ():
+  i\<C-o>:QuickMarkdownLink\<Enter>
+
+Expect (A link):
+  T[]()his is a line of text
 
