@@ -1,7 +1,7 @@
 QuickMarkdown Plugin for Vim
 ============================
 
-A plugin to quickly build titles in markdown format.
+Quickly build titles in markdown format.
 
 Installation
 ------------
@@ -31,8 +31,15 @@ to build a title of level 1.
 There is also functions to build titles from level 2 to 6:
 
     :QuickMarkdownTitle2
-    ...
+    :QuickMarkdownTitle3
+    :QuickMarkdownTitle4
+    :QuickMarkdownTitle5
     :QuickMarkdownTitle6
+
+As an experimental feature, the plugin provide a function to make a link
+template, try it to see if it's useful for you:
+
+    :QuickMarkdownLink
 
 ### Mapping
 
@@ -89,6 +96,16 @@ imap <C-q>» <C-o>:QuickMarkdownTitle3<Enter>
 imap <C-q>( <C-o>:QuickMarkdownTitle4<Enter>
 imap <C-q>) <C-o>:QuickMarkdownTitle5<Enter>
 imap <C-q>@ <C-o>:QuickMarkdownTitle6<Enter>
+```
+
+#### A mapping for the link template
+
+If you want to use the experimental link template feature, try the
+following mapping:
+
+``` vim
+nmap <Leader>ql :QuickMarkdownLink<Enter>
+imap <C-q>l <C-o>:QuickMarkdownLink<Enter>
 ```
 
 Contributing
