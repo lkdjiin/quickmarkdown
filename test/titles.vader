@@ -1,4 +1,4 @@
-# Testing level 1 to 3 with a single line file.
+# Testing level 1 to 6 with a single line file.
 
 Given (A line of text):
   Make a title of this
@@ -45,7 +45,7 @@ Execute (To level 6 title):
 Expect (to be a level 6 title):
   ###### Make a title of this
 
-# Testing level 1 to 3 with a two lines file.
+# Testing level 1 to 6 with a two lines file.
 
 Given (Some text):
   Make a title of this
@@ -54,6 +54,14 @@ Given (Some text):
 Do (To title 1):
   gg
   :QuickMarkdownTitle1\<Enter>
+
+Expect (to be a level 1 title):
+  Make a title of this
+  ====================
+  and not of this one
+
+Do (Title 1 in insert mode):
+  i\<C-o>:QuickMarkdownTitle1\<Enter>
 
 Expect (to be a level 1 title):
   Make a title of this

@@ -12,3 +12,5 @@ command! QuickMarkdownTitle3 call quickmarkdown#title(3)
 command! QuickMarkdownTitle4 call quickmarkdown#title(4)
 command! QuickMarkdownTitle5 call quickmarkdown#title(5)
 command! QuickMarkdownTitle6 call quickmarkdown#title(6)
+
+command! QuickMarkdownLink call quickmarkdown#link()
