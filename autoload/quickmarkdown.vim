@@ -28,3 +28,7 @@ function! quickmarkdown#link()
   execute "normal! a[]()"
   execute "normal! 2h"
 endfunction
+
+function! quickmarkdown#more()
+  call append('.', "<!-- more -->")
+endfunction
