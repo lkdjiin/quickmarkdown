@@ -1,0 +1,12 @@
+Given (some text):
+  First line
+  Last line
+
+Do (insert more marker in normal mode):
+  gg
+  :QuickMarkdownMore\<Enter>
+
+Expect (marker inserted):
+  First line
+  <!-- more -->
+  Last line
