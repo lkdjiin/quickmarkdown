@@ -105,7 +105,7 @@ be useful when writing an Octopress blog post, for instance:
 
     :QuickMarkdownMore
 
-#### A mapping for the link template
+#### A mapping for the experimental features
 
 If you want to use the experimental features, please try the
 following mapping:
